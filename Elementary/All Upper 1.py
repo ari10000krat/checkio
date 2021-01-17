@@ -1,8 +1,9 @@
 def is_all_upper(text: str) -> bool:
-    text.replace(' ','')
+    text.replace(' ', '')
     if text.upper() == text or not text.isalpha:
         return True
     return False
+
 
 # def is_all_upper(text: str) -> bool:
 #     # your code here
