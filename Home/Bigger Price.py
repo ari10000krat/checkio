@@ -15,13 +15,13 @@ def bigger_price(limit: int, data: list) -> list:
     return result
 
 
-def bigger_price(limit: int, data: list) -> list:
-    """
-        TOP most expensive goods
-    """
-    # your code here
-
-    return sorted(data, key=lambda item: item.get("price"), reverse=True)[:limit]
+# def bigger_price(limit: int, data: list) -> list:
+#     """
+#         TOP most expensive goods
+#     """
+#     # your code here
+#
+#     return sorted(data, key=lambda item: item.get("price"), reverse=True)[:limit]
 
 if __name__ == '__main__':
     from pprint import pprint
