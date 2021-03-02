@@ -4,7 +4,6 @@ def bigger_price(limit: int, data: list) -> list:
     """
     result = []
     for i in range(limit):
-        
         index = 0
         max = data[index]['price']
         for j in range(len(data)):
