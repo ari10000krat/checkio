@@ -4,6 +4,7 @@ def bigger_price(limit: int, data: list) -> list:
     """
     result = []
     for i in range(limit):
+        
         index = 0
         max = data[index]['price']
         for j in range(len(data)):
@@ -14,14 +15,6 @@ def bigger_price(limit: int, data: list) -> list:
         data.pop(index)
     return result
 
-
-# def bigger_price(limit: int, data: list) -> list:
-#     """
-#         TOP most expensive goods
-#     """
-#     # your code here
-#
-#     return sorted(data, key=lambda item: item.get("price"), reverse=True)[:limit]
 
 if __name__ == '__main__':
     from pprint import pprint
